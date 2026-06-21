@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grease & Gears – Food Truck Maintenance Log</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0f0f0f;
+      color: #F5F5F5;
+      line-height: 1.7;
+    }
+    header {
+      background: #1a1a1a;
+      border-bottom: 1px solid #2a2a2a;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+    }
+    header a { text-decoration: none; }
+    header .logo { font-size: 22px; font-weight: 900; color: #E8A020; letter-spacing: 1px; }
+    nav { margin-left: auto; display: flex; gap: 24px; }
+    nav a { color: #888; text-decoration: none; font-size: 14px; }
+    nav a:hover { color: #F5F5F5; }
+
+    .hero {
+      text-align: center;
+      padding: 96px 24px 80px;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    .hero h1 {
+      font-size: 48px;
+      font-weight: 900;
+      color: #E8A020;
+      letter-spacing: 1px;
+      margin-bottom: 16px;
+    }
+    .hero p {
+      font-size: 18px;
+      color: #888;
+      margin-bottom: 48px;
+    }
+    .badge {
+      display: inline-block;
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 12px;
+      padding: 12px 24px;
+      color: #888;
+      font-size: 14px;
+    }
+
+    .features {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+    }
+    .feature-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 12px;
+      padding: 28px;
+    }
+    .feature-card .icon { font-size: 28px; margin-bottom: 12px; }
+    .feature-card h3 { font-size: 16px; font-weight: 700; color: #F5F5F5; margin-bottom: 8px; }
+    .feature-card p { color: #888; font-size: 14px; margin: 0; }
+
+    .links {
+      text-align: center;
+      padding: 48px 24px 80px;
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+    .links a { color: #888; text-decoration: none; font-size: 14px; }
+    .links a:hover { color: #E8A020; }
+
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      color: #555;
+      font-size: 13px;
+      border-top: 1px solid #1a1a1a;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html"><span class="logo">Grease &amp; Gears</span></a>
+    <nav>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Grease &amp; Gears</h1>
+    <p>The maintenance log built for independent food truck operators. Stop losing weekends to broken equipment.</p>
+    <span class="badge">Available on the App Store</span>
+  </div>
+
+  <div class="features">
+    <div class="feature-card">
+      <div class="icon">🚛</div>
+      <h3>Equipment Roster</h3>
+      <p>Track every piece of critical equipment — fryers, generators, AC units, gray water tanks, and more.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">🔧</div>
+      <h3>Quick Logging</h3>
+      <p>Log a completed service in under 3 taps. No enterprise bloat, no complex forms.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">🔔</div>
+      <h3>Smart Reminders</h3>
+      <p>Set recurring intervals and get notified before your next service is due — never miss a deadline.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">🚦</div>
+      <h3>Traffic Light Dashboard</h3>
+      <p>See at a glance what needs attention now, what's coming up, and what's in good shape.</p>
+    </div>
+  </div>
+
+  <div class="links">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+    <a href="support.html">Support</a>
+    <a href="mailto:drew.spagna@gmail.com">Contact</a>
+  </div>
+
+  <footer>
+    &copy; 2026 Grease &amp; Gears. All rights reserved.
+  </footer>
+</body>
+</html>
